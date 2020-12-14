@@ -1,41 +1,31 @@
 import React, { Component } from "react";
 import animal from "../img/animal.jpg";
-import accomodation from "../img/accomodation.jpg";
-import crestedcrane from "../img/crestedcrane.jpg";
+import accommodation from "../img/accommodation.jpg";
+import food from "../img/food.jpg";
 import gorilla from "../img/gorilla.jpg";
-import hut from "../img/hut.jpg";
-import hotsprint from "../img/hotspring.jpg";
+import bg9 from "../img/bg9.jpg";
+import sunset from "../img/sunset.jpg";
 import { Carousel,CarouselItem, CarouselControl, CarouselIndicators,CarouselCaption } from "reactstrap";
 
 const items = [
   {
     src: animal,
-    altText: "Animals",
-    caption: "Animals"
-  },
-  {
-    src: accomodation,
-    altText: "Accomodation",
-    caption: "Housing"
-  },
-  {
-    src: crestedcrane,
-    altText: "Uganda Enblem",
-    caption: "The Crested Crane"
+    altText: "Uganda Kob",
+    caption: "Wild life In Uganda"
   },
   {
     src: gorilla,
-    altText: "Baby gorilla",
-    caption: "Gorilla"
+    altText: "Gorilla",
+    caption: "Wild Life In Uganda"
   },
   {
-    src: hut,
-    altText: "Accomodation",
-    caption: "Accomodation"
+    src: bg9,
+    altText: "African Elephant",
+    caption: "Wild Life In Uganda"
   },
   {
-      src: hotsprint,
-      altText: "Water",
+      src: sunset,
+      altText: "Sunsets in Uganda",
       caption: "Nature"
   }
 ];

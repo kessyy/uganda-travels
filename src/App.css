@@ -22,15 +22,28 @@
 .subComponent-lg {
   padding: 80px 0px;
 }
-
+#aboutBody h3 {
+padding-left: 50%;
+padding-right: 50%;
+padding-top: 10px;
+color: #2b2b2b;
+} 
+#description p {
+  padding-right: -50%;
+  min-width: 100vw;
+  min-height: 100vh;
+  color: #e0d3d3;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* 
 #top {
-  background: url("./img/bg3.jpg") center center;
+  background: url("./img/gorilla.jpg") center center;
   min-width: 100%;
   min-height: 100%;
   background-size: cover;
   background-attachment: fixed;
   color: white;
-}
+} */
 #placebtn {
   color: white;
   background-color: #6aa5fd;
@@ -63,8 +76,8 @@
 }
 
 .img-carousel {
-  width: 100%;
-  height: 60vh;
+  width: 100vw;
+  height: 100vh;
   object-fit: cover;
 }
 

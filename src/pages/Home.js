@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../App.css";
 import Top from "../components/Hero";
-// import About from "../components/About";
+import About from "../components/About";
 // import Package from "../components/Package";
 // import Services from "../components/Services";
 // import Contact from "../components/Contact";
@@ -12,8 +12,8 @@ class Home extends Component {
     return (
       <div id='home'>
         <Top />
-        {/* <About />
-        <Offers />
+        <About />
+        {/* <Offers />
         <Services />
         <Contact />
         <Footer /> */}
