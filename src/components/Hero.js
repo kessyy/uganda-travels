@@ -6,7 +6,6 @@ const Top = () => (
   <div>
     <main className="cover-page" id="top">
     <MainCarousel />
-      
     </main>
   </div>
 );
