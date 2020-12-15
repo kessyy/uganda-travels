@@ -12,7 +12,7 @@ class About extends Component {
     return (
       <div id='about-us'>
         {/* <MainCarousel /> */}
-        <div class ="container" id="aboutBody">
+        <div class ="container-fluid" id="aboutBody">
           <p><h3>Uganda Travels</h3></p>
           <div class="row">
           <p id="description" class="col-6">
@@ -30,49 +30,14 @@ class About extends Component {
           consequatur? Quis autem vel eum iure reprehenderit qui in ea 
           voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
           </p>
-          </div>
-          <div class="row">
-          <div class="col-6">
-            <img src="./img/img1"></img>
+          <div class="col-6" id="aboutImg">
+            
           </div>
           </div>
+          
+          
+          
         </div>
-        {/* <div className="subComponent" id="aboutBody">
-          <Container>
-            <header className="headerTitle text-center">
-              <h1>Uganda Travels</h1>
-              <p>Discover Uganda</p>
-            </header>
-            <section className="svg-group text-center subComponent">
-              <Row>
-                <Col lg="3" md="6" sm="6">
-                  <div className="svg-card">
-                    <Award width="48" height="48" strokeWidth="1" />
-                    <p>Best Price Guarantee</p>
-                  </div>
-                </Col>
-                <Col lg="3" md="6" sm="6">
-                  <div className="svg-card">
-                    <Shield width="48" height="48" strokeWidth="1" />
-                    <p>Trust and Safety</p>
-                  </div>
-                </Col>
-                <Col lg="3" md="6" sm="6">
-                  <div className="svg-card">
-                    <Heart width="48" height="48" strokeWidth="1" />
-                    <p>Best Travel Agent</p>
-                  </div>
-                </Col>
-                <Col lg="3" md="6" sm="6">
-                  <div className="svg-card">
-                    <Compass width="48" height="48" strokeWidth="1" />
-                    <p>Travel Insurance</p>
-                  </div>
-                </Col>
-              </Row>
-            </section>
-          </Container>
-        </div> */}
       </div>
     );
   }

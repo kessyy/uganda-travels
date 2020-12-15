@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import "../App.css";
 import Top from "../components/Hero";
 import About from "../components/About";
-// import Package from "../components/Package";
 // import Services from "../components/Services";
 // import Contact from "../components/Contact";
 // import Footer from "../components/Footer";
