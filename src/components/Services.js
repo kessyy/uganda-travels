@@ -1,4 +1,5 @@
-// import { AddLocation } from '@material-ui/icons/AddLocation';
+import { faHome, faBus, faRoute, faAtlas } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { Component } from 'react';
 import '../App.css';
 
@@ -6,7 +7,6 @@ class Services extends Component {
   render() {
     return (
       <div id='services'>
-        {/* <MainCarousel /> */}
 
         <div className="subComponent" id="aboutServices">
           <div class ="container">
@@ -16,12 +16,30 @@ class Services extends Component {
             </header>
             <section className="text-center subComponent">
               <div class ="row">
-                <div class ="col-6">
-                  {/* <AddLocation>
-                      <p> Available</p>
-                  </AddLocation> */}
+              <div class ="col-3">
+                  <div>
+                    <FontAwesomeIcon icon={faAtlas} size="5x"/>
+                    <p>Ticketing</p>
+                  </div>
                 </div>
-                
+                <div class ="col-3">
+                  <div>
+                    <FontAwesomeIcon icon={faHome} size="5x"/>
+                    <p>Accomodation</p>
+                  </div>
+                </div>
+                <div class ="col-3">
+                  <div>
+                    <FontAwesomeIcon icon={faBus} size="5x"/>
+                    <p>Transportation</p>
+                  </div>
+                </div>
+                <div class ="col-3">
+                  <div>
+                    <FontAwesomeIcon icon={faRoute} size="5x"/>
+                    <p>Tour destinations</p>
+                  </div>
+                </div>
               </div>
             </section>
           </div>
