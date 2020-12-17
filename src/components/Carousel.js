@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import animal from "../img/animal.jpg";
-import accommodation from "../img/accommodation.jpg";
-import food from "../img/food.jpg";
 import gorilla from "../img/gorilla.jpg";
 import bg9 from "../img/bg9.jpg";
 import sunset from "../img/sunset.jpg";
