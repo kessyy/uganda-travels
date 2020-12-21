@@ -3,7 +3,7 @@ import "../App.css";
 import Top from "../components/Hero";
 import About from "../components/About";
 import Services from "../components/Services";
-// import Contact from "../components/Contact";
+import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
 class Home extends Component {
@@ -13,7 +13,7 @@ class Home extends Component {
         <Top />
         <About />
         <Services />
-        {/* <Contact /> */}
+        <Contact />
         <Footer /> 
       </div>
     );

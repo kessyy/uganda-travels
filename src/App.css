@@ -3,7 +3,7 @@
 }
 
 .navDark {
-  background: rgba(29, 0, 0, 0.6);
+  background: #002331ab;
 }
 
 .nav-link {
@@ -197,25 +197,6 @@ color: #2b2b2b;
   color: #2b2b2b;
 }
 
-.svg-group p {
-  margin: 15px 0px;
-}
-
-.svg-card {
-  background: rgba(0, 0, 0, 0.1);
-  color: #2b2b2b;
-  padding: 30px;
-  margin: 10px;
-  width: 200px;
-  height: 200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.svg-card:hover {
-  border-radius: 50%;
-}
-
 .wrapped-services {
   background: url("./img/gorilla.jpg") center center;
   background-size: cover;
@@ -227,13 +208,13 @@ color: #2b2b2b;
 }
 
 #contactBody {
-  background: #6d613c;
+  background: #002331ab;
   color: rgba(0, 0, 0, 0.7);
 }
 
 #footerBody {
   background: #002331ab;
-  /* color: rgba(0, 0, 0, 0.7); */
+  color: rgba(0, 0, 0, 0.7);
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
