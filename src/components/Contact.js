@@ -50,20 +50,17 @@ class Contact extends Component {
             <Row>
               <Col lg="4" md="4">
                 <div >
-                  {/* <Phone width="50" height="55" strokeWidth="1" /> */}
-                  <p>0912 345 6789</p>
+                  <p>256 772 123 456</p>
                 </div>
               </Col>
               <Col lg="4" md="4">
                 <div >
-                  {/* <MapPin width="55" height="55" strokeWidth="1" /> */}
                   <p>Kampala, Uganda</p>
                 </div>
               </Col>
               <Col lg="4" md="4">
                 <div >
-                  {/* <Mail width="55" height="55" strokeWidth="1" /> */}
-                  <p>manilatourism@manila.ph</p>
+                  <p>ugandatravels@email.com</p>
                 </div>
               </Col>
             </Row>
